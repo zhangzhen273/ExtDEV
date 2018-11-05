@@ -1,0 +1,9 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:30001/eureka/
+server:
+  port: 30021
+spring:
+  application:
+    name: ExtDEV-sys
